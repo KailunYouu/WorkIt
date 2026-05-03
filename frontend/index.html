@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <script src="index.js"></script>
+</head>
+<body>
+<!-- RUN THIS IN TERMINAL BEFORE USING: npx tailwindcss -i ./input.css -o ./output.css --watch       -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Tailwind Play CDN -->
+<link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Top Bar -->
+  <h1 id="workouts">HI</h1>
+  <button onclick="{loadWorkouts()}"> HELLO</button>
+  <div>
+    <p>WorkIt</p>
+    <input>
+    <button>
+      <a href="workout.html"> Workout Tracker</a>
+    </button>
+    <button>
+      <a href="profile.html"> My Profile </a>
+    </button>
+  </div>
+
+  <!-- Title Page -->
+  <div>
+    <h1> WorkIt</h1>
+    <h3> Your complete workout companion</h3>
+  </div>
+
+  <!-- Fitness Tip -->
+  <div>
+    <p id="WorkoutTip">"WORKOUT TIPS"</p>
+  </div>
+
+  <!-- Explore Body Parts -->
+  <div>
+
+  </div>
+
+  <!-- Go to Workout -->
+  <div>
+    <h1> Start Tracking</h1> 
+    <p>Build your workout routine and track your progress with our beginer friendly tracker</p>
+    <button><a href="">Go to Workout Tracker</a></button>
+  </div>
+
+  <!-- Website Info -->
+  <div>
+    <h1> Features </h1>
+    <!-- Bullet Points -->
+  </div>
+
+  <!-- How It Works -->
+  <div>
+    <!-- Flex Box -->
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <div class="text-center">
+    <img class="w-45 h-45 rounded-full mx-auto border-4 border-indigo-500 hover:scale-110 transition-transform"
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWydK4TyY4lTSAY55hOEUPmvAdx9RfdaRDFwSnoNoMwdr6ke_7VckbCgWEgZZglgIULhDQqCOLmqOdGsMjo66QZ5TQr0ApQxKPGd5J5tbzrzlmJg&s=10&ec=121584908"
+    alt="Project Image">
+    <h2 class="mt-4 text-2xl font-semibold text-gray-800">Project Lead</h2>
+    <p class="text-indigo-600 font-medium">Full-Stack Developer</p>
+    <p class="mt-2 text-gray-500 text-sm">
+    Currently building responsive web applications using React, Node.js, and Tailwind CSS.
+    </p>
+
+    <div class="mt-6 flex gap-3">
+      <button class="flex-1 bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 hover:text-black
+      transition">
+      View Project
+      </button>
+      <button class="flex-1 border border-gray-300 px-4 py-2 rounded-lg hover:bg-gray-50 hover:text-black
+      transition">
+      Source Code
+      </button>
+    </div>
+    <!-- Skill Section -->
+    <div class="mt-4 flex flex-wrap justify-center gap-2">
+      <span class="bg-indigo-100 text-indigo-600 text-xs px-3 py-1 rounded-full"> HTML </span>
+      <span class="bg-indigo-100 text-indigo-600 text-xs px-3 py-1 rounded-full"> CSS </span>
+      <span class="bg-indigo-100 text-indigo-600 text-xs px-3 py-1 rounded-full"> REACT </span>
+    </div>
+    <div class="max-w-6xl mx-auto">
+      <h1 class="text-2xl font-bold text-slate-800 mb-8 text-center">My Projects</h1>
+      <!-- We will build our Grid here -->
+      <main id="portfolio-grid" class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <!-- COPY AND PASTE YOUR CARD CODE 3 TIMES INSIDE HERE -->
+        <div class="relative bg-white rounded-xl shadow-md p-4 hover:bg-indigo-500 transition">
+          <!-- Featured Badge -->
+          <span class="absolute top-4 right-4 bg-emerald-500 text-white text-xs font-bold px-3 py-1
+          rounded-full shadow-sm">
+          Featured
+          </span>
+          <img class="w-full h-45 object-cover rounded-lg" 
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWydK4TyY4lTSAY55hOEUPmvAdx9RfdaRDFwSnoNoMwdr6ke_7VckbCgWEgZZglgIULhDQqCOLmqOdGsMjo66QZ5TQr0ApQxKPGd5J5tbzrzlmJg&s=10&ec=12158490">
+            <!-- Featured Badge -->
+          <h3 class="mt-3 text-lg font-semibold text-gray-800"> Toy Story</h3>
+          <p class="mt-1 text-sm text-grey-500"> Created AI Toy Story Show using bs </p>
+          <span class="bg-indigo-100 text-indigo-600 text-xs px-3 py-1 rounded-full"> REACT</span>
+          <span class="bg-indigo-100 text-indigo-600 text-xs px-3 py-1 rounded-full"> AIPlus</span>
+        </div>
+        <div class="bg-white rounded-xl shadow-md p-4 hover:bg-indigo-500 transition">
+          <img class="w-full h-45 object-cover rounded-lg" 
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWydK4TyY4lTSAY55hOEUPmvAdx9RfdaRDFwSnoNoMwdr6ke_7VckbCgWEgZZglgIULhDQqCOLmqOdGsMjo66QZ5TQr0ApQxKPGd5J5tbzrzlmJg&s=10&ec=12158490">
+          <h3 class="mt-3 text-lg font-semibold text-gray-800"> Toy </h3>
+          <p class="mt-1 text-sm text-grey-500"> Created AI Toy Story Show using bs </p>
+          <span class="bg-indigo-100 text-indigo-600 text-xs px-3 py-1 rounded-full"> REACT</span>
+          <span class="bg-indigo-100 text-indigo-600 text-xs px-3 py-1 rounded-full"> AIPlus</span>
+        </div>
+        <div class="bg-white rounded-xl shadow-md p-4 hover:bg-indigo-500 transition">
+          <img class="w-full h-45 object-cover rounded-lg" 
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWydK4TyY4lTSAY55hOEUPmvAdx9RfdaRDFwSnoNoMwdr6ke_7VckbCgWEgZZglgIULhDQqCOLmqOdGsMjo66QZ5TQr0ApQxKPGd5J5tbzrzlmJg&s=10&ec=12158490">
+          <h3 class="mt-3 text-lg font-semibold text-gray-800"> Toy Story</h3>
+          <p class="mt-1 text-sm text-grey-500"> Created AI Toy Story Show using bs </p>
+          <span class="bg-indigo-100 text-indigo-600 text-xs px-3 py-1 rounded-full"> REACT</span>
+          <span class="bg-indigo-100 text-indigo-600 text-xs px-3 py-1 rounded-full"> AIPlus</span>
+        </div>
+      </main>
+      <section class="mt-20 max-w-2xl mx-auto bg-white dark:bg-slate-800 p-8 rounded-2xl
+        shadow-xl border border-slate-200 dark:border-slate-700">
+        <h2 class="text-3xl font-bold text-slate-800 dark:text-white mb-6 text-center">Contact
+        Me</h2>
+        <!-- We will build our Form here -->
+        <form id="contact-form" class="space-y-6">
+          <!-- Name Input -->
+          <div>
+            <label class="block text-sm font-medium text-slate-700 dark:text-slate-300
+            mb-2">Name</label>
+            <input type="text" placeholder="John Doe"
+            class="w-full px-4 py-3 rounded-lg border border-slate-300 dark:border-slate-600
+            bg-slate-50 dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2
+            focus:ring-cyan-500 focus:border-transparent transition-all">
+          </div>
+          <!-- Name Input -->
+          <div>
+            <label class="block text-sm font-medium text-slate-700 dark:text-slate-300
+            mb-2">Email</label>
+            <input type="email" placeholder="John Doe"
+            class="w-full px-4 py-3 rounded-lg border border-slate-300 dark:border-slate-600
+            bg-slate-50 dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2
+            focus:ring-cyan-500 focus:border-transparent transition-all">
+          </div>
+          <!-- Message Textarea -->
+          <div>
+            <label class="block text-sm font-medium text-slate-700 dark:text-slate-300
+            mb-2">Message</label>
+            <textarea rows="4" placeholder="How can I help you?"
+            class="w-full px-4 py-3 rounded-lg border border-slate-300 dark:border-slate-600
+            bg-slate-50 dark:bg-slate-700 text-slate-900 dark:text-white focus:outline-none focus:ring-2
+            focus:ring-cyan-500 focus:border-transparent transition-all"></textarea>
+          </div>
+          <!-- Submit Button with Hover Transform -->
+          <button type="submit"
+          class="w-full flex items-center justify-center gap-2 bg-cyan-500 hover:bg-cyan-600
+          text-white font-bold py-3 px-4 rounded-lg transform hover:-translate-y-1 transition-all
+          duration-300 shadow-lg hover:shadow-cyan-500/50">
+            <!-- Built-in Spin Animation -->
+            <svg class="animate-spin h-5 w-5 text-white hidden"
+            xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)" fill="none" viewBox="0 0
+            24 24" id="spinner">
+            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor"
+            stroke-width="4"></circle>
+            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0
+            12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+            </svg>
+            <span>Send Message</span>
+          </button>
+        </form>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
